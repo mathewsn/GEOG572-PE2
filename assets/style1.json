@@ -6,10 +6,10 @@
         "mapbox:type": "template"
     },
     "center": [
-        -98.64935063202932,
-        10.383450387971465
+        -67.76308875088745,
+        52.85667444347823
     ],
-    "zoom": 1.0594405408263416,
+    "zoom": 1.8734707073932104,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -41,7 +41,7 @@
             ],
             "paint": {
                 "fill-color": "#f0e0a0",
-                "fill-opacity": 0.75
+                "fill-opacity": 0.19
             }
         },
         {
@@ -55,7 +55,8 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "#f0e0a0"
+                "fill-color": "#f0e0a0",
+                "fill-opacity": 1
             }
         },
         {
@@ -83,7 +84,7 @@
                     "base": 1.4,
                     "stops": [
                         [
-                            8,
+                            3,
                             0.5
                         ],
                         [
@@ -109,7 +110,8 @@
             "source": "mapbox",
             "source-layer": "building",
             "paint": {
-                "fill-color": "#f0e0a0"
+                "fill-color": "hsl(0, 0%, 100%)",
+                "fill-opacity": 0.31
             }
         },
         {
@@ -659,9 +661,9 @@
                 "icon-size": 1
             },
             "paint": {
-                "text-color": "#666",
+                "text-color": "hsl(0, 0%, 100%)",
                 "text-halo-width": 1,
-                "text-halo-color": "rgba(255,255,255,0.75)",
+                "text-halo-color": "hsla(0, 0%, 0%, 0.75)",
                 "text-halo-blur": 1
             }
         },
@@ -711,7 +713,7 @@
                 }
             },
             "paint": {
-                "text-color": "#666",
+                "text-color": "hsl(0, 0%, 0%)",
                 "text-halo-color": "rgba(255,255,255,0.75)",
                 "text-halo-width": 2
             }
@@ -761,7 +763,7 @@
                 }
             },
             "paint": {
-                "text-color": "#666",
+                "text-color": "hsl(0, 0%, 0%)",
                 "text-halo-color": "rgba(255,255,255,0.75)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
@@ -855,7 +857,7 @@
     ],
     "created": "2017-05-16T18:12:12.787Z",
     "id": "cj2rvlbza00192ro6s7o43qfn",
-    "modified": "2017-05-16T18:33:39.486Z",
+    "modified": "2017-05-16T22:33:12.218Z",
     "owner": "mathewsn",
     "visibility": "private",
     "draft": false

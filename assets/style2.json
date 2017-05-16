@@ -6,10 +6,10 @@
         "mapbox:type": "template"
     },
     "center": [
-        10.16904553887639,
-        -1.8474111129762605e-13
+        -32.995696191902084,
+        56.72913903752266
     ],
-    "zoom": 0.8454899375771896,
+    "zoom": 1.8664596238083193,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -25,7 +25,7 @@
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#204060"
+                "background-color": "hsl(210, 49%, 27%)"
             }
         },
         {
@@ -40,7 +40,7 @@
             ],
             "paint": {
                 "fill-color": "#606080",
-                "fill-opacity": 0.75
+                "fill-opacity": 0.31
             }
         },
         {
@@ -54,7 +54,8 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "hsl(240, 7%, 51%)"
+                "fill-color": "hsl(240, 7%, 51%)",
+                "fill-opacity": 0.34
             }
         },
         {
@@ -76,14 +77,15 @@
                     "river"
                 ]
             ],
+            "layout": {},
             "paint": {
                 "line-color": "hsl(0, 0%, 0%)",
                 "line-width": {
                     "base": 1.4,
                     "stops": [
                         [
-                            8,
-                            0.5
+                            5,
+                            0.75
                         ],
                         [
                             20,
@@ -99,7 +101,8 @@
             "source": "mapbox",
             "source-layer": "water",
             "paint": {
-                "fill-color": "hsl(240, 59%, 93%)"
+                "fill-color": "hsl(240, 59%, 93%)",
+                "fill-opacity": 0.84
             }
         },
         {
@@ -594,17 +597,16 @@
                 ]
             ],
             "layout": {
-                "line-cap": "round",
-                "line-join": "round"
+                "line-cap": "round"
             },
             "paint": {
-                "line-color": "#8b8a8a",
+                "line-color": "hsl(0, 0%, 100%)",
                 "line-width": {
                     "base": 1.3,
                     "stops": [
                         [
                             3,
-                            0.5
+                            1
                         ],
                         [
                             22,
@@ -658,10 +660,9 @@
                 "icon-size": 1
             },
             "paint": {
-                "text-color": "#666",
-                "text-halo-width": 1,
-                "text-halo-color": "rgba(255,255,255,0.75)",
-                "text-halo-blur": 1
+                "text-color": "hsl(0, 0%, 100%)",
+                "text-halo-blur": 1,
+                "text-halo-color": "rgba(255,255,255,0.75)"
             }
         },
         {
@@ -710,9 +711,8 @@
                 }
             },
             "paint": {
-                "text-color": "#666",
-                "text-halo-color": "rgba(255,255,255,0.75)",
-                "text-halo-width": 2
+                "text-color": "hsl(0, 0%, 0%)",
+                "text-halo-color": "hsla(0, 0%, 0%, 0.75)"
             }
         },
         {
@@ -760,9 +760,8 @@
                 }
             },
             "paint": {
-                "text-color": "#666",
+                "text-color": "hsl(0, 0%, 100%)",
                 "text-halo-color": "rgba(255,255,255,0.75)",
-                "text-halo-width": 1,
                 "text-halo-blur": 1
             }
         },
@@ -806,9 +805,8 @@
                 }
             },
             "paint": {
-                "text-color": "hsl(0, 4%, 12%)",
-                "text-halo-color": "rgba(255,255,255,0.75)",
-                "text-halo-width": 1,
+                "text-color": "hsl(0, 0%, 100%)",
+                "text-halo-color": "hsla(0, 0%, 0%, 0.75)",
                 "text-halo-blur": 1
             }
         },
@@ -844,16 +842,16 @@
                 }
             },
             "paint": {
-                "text-color": "hsl(208, 22%, 15%)",
+                "text-color": "hsl(0, 0%, 100%)",
                 "text-halo-color": "hsla(0, 0%, 100%, 0.75)",
-                "text-halo-width": 1,
-                "text-halo-blur": 1
+                "text-halo-blur": 1,
+                "text-halo-width": 0
             }
         }
     ],
     "created": "2017-05-16T18:45:57.509Z",
     "id": "cj2rwsq9i00182ss3wzrm6s28",
-    "modified": "2017-05-16T18:59:21.446Z",
+    "modified": "2017-05-16T22:42:47.941Z",
     "owner": "mathewsn",
     "visibility": "private",
     "draft": false
